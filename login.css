@@ -1,0 +1,58 @@
+input[type=text],
+input[type=password],
+input[type=Number]
+    {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid aquamarine;
+    box-sizing: border-box;
+
+}
+
+label
+{
+    color: blue;
+}
+
+h2
+{
+    color: blue;
+    font-size: 30px;
+    margin-left: 200px;
+}
+button {
+    background-color:dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.signupbtn {
+    float: left;
+    width: 100%;
+
+}
+
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
